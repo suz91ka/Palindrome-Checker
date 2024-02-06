@@ -18,13 +18,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 .palindrome-definition {
     vertical-align: middle;
     text-align: center;
@@ -51,4 +45,11 @@ p {
     margin: 10px 0;
     background-color: white;
     box-shadow: 0 6px 6px #002ead;
+}
+.p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
